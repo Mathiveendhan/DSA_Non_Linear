@@ -18,7 +18,7 @@ public class subsequence_print_first {
         }
         list.remove(list.size()-1);
         s-=arr[i];
-        if(f(i+1,arr,list,sum,s,n)==true){
+        if( f(i + 1, arr, list, sum, s, n)){
             return true;
         }
         return false;
