@@ -1,8 +1,7 @@
 package Recursion;
-
 import java.util.*;
 
-class Solution {
+class palindrome_partitioning{
     public static List<List<String>> partition(String s) {
         List<List<String>> res = new ArrayList<>();
         List<String> path = new ArrayList<>();
