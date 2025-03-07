@@ -1,7 +1,7 @@
 package Recursion;
 import java.util.*;
 
-public class permutation {
+public class permutation_approach_1 {
         public static void call(int[] nums,boolean[] temp,List<List<Integer>> ans,List<Integer> ds){
             if(ds.size()==nums.length){
                 ans.add(new ArrayList<>(ds));
