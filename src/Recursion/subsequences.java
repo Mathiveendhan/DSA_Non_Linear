@@ -14,11 +14,10 @@ public class subsequences {
         print(idx + 1, arr, list, n);
 
     }
-
     public static void main(String[] args) {
         int[] arr = {3, 1, 2};
         int n = arr.length;
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list =  new ArrayList<>();
         print(0, arr, list, n);
     }
 }
