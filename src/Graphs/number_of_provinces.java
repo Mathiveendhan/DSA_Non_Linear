@@ -16,6 +16,7 @@ public class number_of_provinces {
                 adjLs.add(new ArrayList<Integer>());
             }
 
+            //change matrix into adj list
             for(int i = 0;i<V;i++) {
                 for(int j = 0;j<V;j++) {
                     if(adj.get(i).get(j) == 1 && i != j) {
