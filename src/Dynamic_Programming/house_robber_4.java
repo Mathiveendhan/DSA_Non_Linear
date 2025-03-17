@@ -1,7 +1,7 @@
 package Dynamic_Programming;
 import java.util.*;
 
-public class frog_jump {
+public class house_robber_4 {
 
     public static int solve(int ind,int[] height,int[] dp){
         if(ind==0) return 0;
@@ -14,7 +14,7 @@ public class frog_jump {
         return dp[ind]=Math.min(jumpOne, jumpTwo);
     }
     public static void main(String[] args) {
-        int[] height ={30,10,60 , 10 , 60 , 50};
+        int[] height ={30,10,60,10,60,50};
         int n=height.length;
         int[] dp =new int[n];
         Arrays.fill(dp,-1);
