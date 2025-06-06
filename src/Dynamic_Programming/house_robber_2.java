@@ -26,7 +26,7 @@ public class house_robber_2 {
 //            }
 //
 //            int ans1=call(arr1,arr1.length-1);
-//            int ans2=call(arr2,arr2.length-1);
+//            int ans2=call(arr2,arr2.length-1);         
 //
 //            return Math.max(ans1,ans2);
 //        }
